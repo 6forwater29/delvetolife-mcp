@@ -1,0 +1,9 @@
+name = "delvetolife-mcp"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+# Custom domain on the delvetolife.com Cloudflare zone
+routes = [
+  { pattern = "mcp.delvetolife.com", custom_domain = true }
+]

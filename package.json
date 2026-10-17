@@ -1,0 +1,11 @@
+{
+  "name": "delvetolife-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "python3 scripts/build-guides.py && wrangler deploy",
+    "test": "node scripts/smoke-test.mjs"
+  },
+  "devDependencies": { "wrangler": "^4" }
+}

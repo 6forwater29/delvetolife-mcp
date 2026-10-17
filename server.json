@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.delvetolife.mcp/delve-to-life",
+  "title": "Delve to Life",
+  "description": "Dress codes explained, outfit formulas by occasion and weather, and clothing colour combinations.",
+  "version": "1.0.0",
+  "websiteUrl": "https://delvetolife.com/ai/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.delvetolife.com/mcp" }
+  ]
+}
